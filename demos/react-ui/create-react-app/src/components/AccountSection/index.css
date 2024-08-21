@@ -1,0 +1,48 @@
+.actionSection {
+    background-color: white;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    padding: 30px 20px;
+    min-width: 600px;
+}
+
+.actionSection button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: rgb(0,0,255,0.7);
+    color: white;
+    transition: all 0.5s;
+}
+.actionSection button:hover {
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: rgb(0,0,255,0.7);
+    background-color: rgb(241, 232, 232);
+    transition: all 0.5s;
+}
+
+.actionSection .trade {
+    display: flex;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.accounts th {
+    padding: 6px 7px;
+    font-size: 23px;
+    width: 20%;
+}
+.accounts td {
+    padding: 9px 7px;
+    font-size: 14px;
+}
+
+.accounts tr {
+    border-top: 1px double lightgray;
+}
+
+.accounts{
+    max-height: 500px !important;
+    overflow-y: scroll;
+}

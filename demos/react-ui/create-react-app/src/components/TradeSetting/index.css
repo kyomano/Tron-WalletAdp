@@ -1,0 +1,11 @@
+.tradeSetting {
+    background-color: white;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    padding: 30px 20px;
+}
+
+.tradeSetting TextField {
+    height: 20px;
+}

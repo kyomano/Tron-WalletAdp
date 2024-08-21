@@ -1,0 +1,10 @@
+.Body {
+    display: flex;
+    justify-content: center;
+    padding: 40px 10px;
+}
+
+.Body>div>div{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
